@@ -46,3 +46,50 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+
+/* End of Reset */
+/* Start of Custom Styles */
+
+.content {
+    padding: 0 15px;
+}
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+}
+.top-navigation > .content {
+    margin: 0 auto;
+    width: 970px;
+    height: 70px;
+}
+.top-navigation .logo {
+    height: 70px;
+}
+
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
