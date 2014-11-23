@@ -58,7 +58,7 @@ body {
 .content {
     padding: 0 15px;
     margin: 0 auto;
-    width: 970px;
+    width: 60%;
 }
 /* Navigation Section */
 .top-navigation {
@@ -69,11 +69,11 @@ body {
 }
 
 .top-navigation > .content {
-    height: 70px;
+    height: 4.375rem;
 }
 
 .top-navigation .logo {
-    height: 70px;
+    height: 4.375rem;
 }
 
 .top-navigation .links {
