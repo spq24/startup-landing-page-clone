@@ -81,15 +81,15 @@ body {
     float: right;
     font-family: 'Roboto', sans-serif;
     color: #838994;
-    font-size: 16px;
-    margin-top: 25px;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
     -webkit-font-smoothing: antialiased;
 }
 .top-navigation .links li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 1.563rem;
 }
-.top-navigation .links .active {
+.top-navigation .links li.active {
     color: #4c5058;
     font-weight: 500;
 }
